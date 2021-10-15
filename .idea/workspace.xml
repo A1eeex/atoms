@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="327113b8-2f4c-4a10-9235-be1d26dfb004" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/05-aim-game/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-list_1_react" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +19,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/todo_list_1_react" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -30,6 +30,7 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="1ywNWHZvBlVeddM0XkRzI43kauV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -67,6 +68,7 @@
       <workItem from="1633158723797" duration="14515000" />
       <workItem from="1633326879398" duration="3824000" />
       <workItem from="1633509847232" duration="13165000" />
+      <workItem from="1634279573167" duration="394000" />
     </task>
     <servers />
   </component>
