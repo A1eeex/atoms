@@ -1,0 +1,16 @@
+body{
+    font-family: Open sans-serif;
+    margin-top: 300px;
+    text-align: center;
+   
+    
+}
+
+#clock {
+    font-weight: 300;
+    font-size: 13vw;
+       
+}
+#color {
+    font-size: 1vw;
+}
