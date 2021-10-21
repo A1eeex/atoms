@@ -1,0 +1,65 @@
+.backGroundModal {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.4);
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.containerModal {
+    width: 500px;
+    height: 500px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 7px 25px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.contentForm{
+    position: relative;
+}
+
+.closeBtn {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.closeBtn button{
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #e182ac;
+    border-radius: 4px;
+    border: 1px solid #757575;
+}
+.closeBtn button:hover{
+    background-color: #ce588d;
+}
+.modalTitle {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+}
+.submitBtn{
+    position: absolute;
+    right: 20px;
+}
+.submitBtn button{
+    background-color: #5ec540;
+    border-radius: 4px;
+    padding: 5px;
+    color: #ffffff;
+    border: transparent;
+    font-size: 20px;
+}
+.submitBtn button:hover{
+    background-color: #52af38;
+}
