@@ -16,7 +16,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/todo_list_1_react" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/modal" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -42,6 +42,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="ts.external.directory.path" value="C:\Users\opetrovskyi\Desktop\atoms\modal\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -66,6 +67,7 @@
       <workItem from="1633326879398" duration="3824000" />
       <workItem from="1633509847232" duration="13165000" />
       <workItem from="1634279573167" duration="1095000" />
+      <workItem from="1634822006661" duration="282000" />
     </task>
     <servers />
   </component>
