@@ -1,15 +1,14 @@
 import React, {useEffect,useState} from 'react';
-import {useParams} from "react-router-dom";
+import {Link, useParams} from "react-router-dom";
 import axios from "axios";
 
 const UserInfo = () => {
-    const [user, setUser] = useState([]);
+    const [user, setUser] = useState({});
     const {id} = useParams()
 
     const fetchUsersSimple = async (id) => {
         const response = await axios.get(`https://jsonplaceholder.typicode.com/users/${id}`)
        return response.data
-
     }
 
     useEffect(()=>{
@@ -22,7 +21,14 @@ const UserInfo = () => {
     },[id])
     return (
         <div>
-            {user.name}
+            <div>Id: {user.id}</div>
+            <div>Name: {user.name}</div>
+            <div>E-mail: {user.email}</div>
+
+            <Link to='/'>
+                <button>Back</button>
+            </Link>
+
         </div>
     );
 };
