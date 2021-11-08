@@ -3,6 +3,7 @@ import {
     BrowserRouter as Router, Route, Switch
 } from 'react-router-dom';
 import TablePage from './components/TablePage'
+import UserInfo from "./components/UserInfo";
 
 function App() {
     return (
@@ -10,7 +11,7 @@ function App() {
             <Router>
                 <Switch>
                     <Route path="/" component={TablePage} exact />
-                    <Route path="/user:id" component={UserInfo} exact />
+                    <Route path="/user/:id" component={UserInfo} />
                 </Switch>
             </Router>
         </div>

@@ -1,21 +1,20 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 
-const TableBody = ({persons}) => {
-
-    if(!persons  || persons.length ===0 ) return <p>Empty</p>
+const TableBody = ({users}) => {
+    console.log(users)
     return (
         <div>
-            <div>{persons.name}</div>
+            {users.map((item, i) => (
+                <div key={i}>
+                    <Link to={`user/${item.id}`}>
+                        {item.name}
+                    </Link>
+                </div>
 
-            {persons.map((user)=> (
-                <>
-                <div>name</div>
-                <div>{user.name}</div>
-                    <br/>
-                </>
             ))}
         </div>
-    );
-};
+    )
+}
 
-export default TableBody;
+    export default TableBody;

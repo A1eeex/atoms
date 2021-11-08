@@ -3,20 +3,23 @@ import axios from 'axios'
 import TableBody from "./TableBody";
 
 const TablePage = () => {
-    const [users, setUsers] = useState(null);
+    const [users, setUsers] = useState([]);
+
+    const fetchUsers = async () => {
+        const response = await axios.get('https://jsonplaceholder.typicode.com/users')
+        const allUsers = response.data
+            setUsers(allUsers)
+    }
 
     useEffect(() => {
-        const userApi = 'https://jsonplaceholder.typicode.com/users'
-        axios.get(userApi)
-            .then((resp) => {
-                const allUsers = resp.data
-                setUsers(allUsers)
-            })
-    }, [setUsers])
+        fetchUsers()
 
+    }, [setUsers])
+    console.log(users)
     return (
         <div>
-            <TableBody persons={users}/>
+            <TableBody users={users} />
+
         </div>
     );
 };
